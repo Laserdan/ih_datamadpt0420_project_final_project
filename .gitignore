@@ -106,3 +106,6 @@ venv.bak/
 # OS stuff:
 .DS_Store
 .idea
+
+# Heavy Database
+data/
