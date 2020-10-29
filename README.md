@@ -26,9 +26,9 @@ An important fact is that matches are not from the in-game matchmaking system. T
 [Here](https://www.kaggle.com/danielmazzone/csgo-data-analysis-and-machine-learning) you can find an exploratory analysis of the data made by Daniel Mazzone
 
 
-## Workflow
+##  :nut_and_bolt: Workflow
 
-### Obtain the prediction models
+### :mag: Obtain the prediction models
 From the kaggle datasets:
 - <code>esea_master_dmg_clean_demos.csv</code>
 - <code>esea_master_grenades_clean_demos.csv</code>
@@ -55,7 +55,7 @@ Obtain the following features through processing ([2_1_ml_preprocessingdata.ipyn
 
 3. **Classifier model to obtain <code>nxt_ct_winner_pred</code> ([5_2_algorithm_election_ml_clas_winner_team.ipynb](https://github.com/Laserdan/Predicting_CSGO_FTW/blob/master/notebooks/5_2_algorithm_election_ml_clas_winner_team.ipynb))**
 
-### Pipeline
+### :flags: Pipeline
 Pipeline with the models loaded which digest the data from the rounds and return de predictions on the fly.
 
 ## :printer: Output
@@ -115,9 +115,10 @@ Get the round information directly from the game and pass it to the pipeline to 
     ├── .gitignore
     ├── requeriments.txt
     ├── README.md
+    ├── assets/
     ├── data
-    │   ├── processed
-    │   └── results
+    │   ├── processed/
+    │   └── results/
     ├── models
     │   ├── ct_team_value.joblib
     │   ├── t_team_value.joblib
@@ -125,7 +126,7 @@ Get the round information directly from the game and pass it to the pipeline to 
     │   ├── t_nxt_rnd_type.joblib
     │   └── nxt_ct_winner.joblib
     └── notebooks
-        ├── archive
+        ├── archive/
         ├── 0_join_data.ipynb
         ├── 1_direct_estimation.ipynb
         ├── 2_1_ml_preprocessingdata.ipynb
