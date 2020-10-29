@@ -1,11 +1,15 @@
 # Predicting CS:GO FTW
 
+<br>
+
 **Victor Lucia**
 
 **Ironhack Madrid 2020 Part-time**
+##
 
+<br>
 
-The objective of the project is to predict relevant information on the fly of ranked matches in the competitive video-game Counter-Strike: Global Offensive (CS:GO), played daily by more than 800.000 players worldwide. With this information the teams can anticipate and coordinate for the next round, creating good strategies either defense or attack, depending on the side they are playing:
+The objective of the project is to **predict relevant information** on the fly of ranked matches in the competitive video-game Counter-Strike: Global Offensive (CS:GO), played daily by more than 800.000 players worldwide. With this information the teams can anticipate and coordinate for the next round, creating good strategies either defense or attack, depending on the side they are playing:
 - Counter Terrorist (CT): Defense
 - Terrorist (T): Attack
 
@@ -13,6 +17,20 @@ Counter-Strike: Global Offensive forms part of the eSports, a growing market tha
 
 ![Image](https://esports.as.com/2018/07/04/cs-go/ESL-organizar-Major-Counter-Strike_1150994903_93102_1440x600.jpg)
 
+## Data Source
+
+The original data came from a [Kaggle dataset](https://www.kaggle.com/skihikingkevin/csgo-matchmaking-damage), where more than 12.000 matches are tracked. 
+
+An important fact is that matches are not from the in-game matchmaking system. They are from a third-party service called [ESEA](https://play.esea.net/), a competitive environment with experimented players and where professional teams train and compete. This makes that we can consider the reliability of the data, knowing that most of the information will be relevant and usable.
+
+[Here](https://www.kaggle.com/danielmazzone/csgo-data-analysis-and-machine-learning) you can find an exploratory analysis of the data made by Daniel Mazzone
+
+
+
+
+
+
+ ----
 The README file describes the essence of the project playing the most important role. Most visitors will simply scroll down about twice on the README and leave if they are not interested. So, the README file should provide the reason **why** to checkout your project!!!). 
 Bearing that in mind, your job is to: 
 - Tell them what it is (with context).
