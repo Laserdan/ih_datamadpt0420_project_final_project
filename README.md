@@ -1,7 +1,17 @@
-# README - Predicting CS:GO FTW
+# Predicting CS:GO FTW
+
+**Victor Lucia**
+
+**Ironhack Madrid 2020 Part-time**
 
 
+The objective of the project is to predict relevant information on the fly of ranked matches in the competitive video-game Counter-Strike: Global Offensive (CS:GO), played daily by more than 800.000 players worldwide. With this information the teams can anticipate and coordinate for the next round, creating good strategies either defense or attack, depending on the side they are playing:
+- Counter Terrorist (CT): Defense
+- Terrorist (T): Attack
 
+Counter-Strike: Global Offensive forms part of the eSports, a growing market that is living his golden years with followers all over the world and moving big amounts of money. Only in tournament prizes, [CS:GO has passed $100M](https://esportsobserver.com/csgo-passes-100m-totalprize-money/)  from his beginning.
+
+![Image](.images/major_cup)
 
 The README file describes the essence of the project playing the most important role. Most visitors will simply scroll down about twice on the README and leave if they are not interested. So, the README file should provide the reason **why** to checkout your project!!!). 
 Bearing that in mind, your job is to: 
