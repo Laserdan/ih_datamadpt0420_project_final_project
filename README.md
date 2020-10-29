@@ -17,7 +17,7 @@ Counter-Strike: Global Offensive forms part of the eSports, a growing market tha
 
 ![Image](https://esports.as.com/2018/07/04/cs-go/ESL-organizar-Major-Counter-Strike_1150994903_93102_1440x600.jpg)
 
-## Data Source
+## :floppy_disk: Data Source
 
 The original data came from a [Kaggle dataset](https://www.kaggle.com/skihikingkevin/csgo-matchmaking-damage), where more than 12.000 matches are tracked. 
 
@@ -26,7 +26,7 @@ An important fact is that matches are not from the in-game matchmaking system. T
 [Here](https://www.kaggle.com/danielmazzone/csgo-data-analysis-and-machine-learning) you can find an exploratory analysis of the data made by Daniel Mazzone
 
 
-## Output
+## :printer: Output
 
 
 |round|ct_val_pred|t_val_pred|ct_round_type|t_round_type|ct_nxt_rnd_type_pred|t_nxt_rnd_type_pred|nxt_ct_winner_pred|
@@ -57,7 +57,7 @@ For the stage we are, we have reached to make the predictions of the data we hav
 - Next round type: 2 multiclass classification models. 
 - Winner for the next round: 1 classification model.
 
-## Next Steps
+## :rocket: Next Steps
 
 #### Sort term
 The next step is to create a pipeline that returns the predictions when a round is passed manually.
@@ -65,7 +65,7 @@ The next step is to create a pipeline that returns the predictions when a round 
 #### Medium term
 Get the round information directly from the game and pass it to the pipeline to get the prediction in real-time.
 
-## Requirements 
+## :laptop: Requirements 
 
 | Technology | Version | Documentation | 
 | --- | --- | --- |
@@ -77,6 +77,39 @@ Get the round information directly from the game and pass it to the pipeline to 
 | LightGBM | 2.3.0 | [lightgbm.readthedocs.io](https://lightgbm.readthedocs.io/en/latest/index.html) |
 | Joblib | 0.15.1 | [joblib.readthedocs.io](https://joblib.readthedocs.io/en/latest/) |
 
+## :file_folder: Folder structure
+```
+└── project
+    ├── .gitignore
+    ├── requeriments.txt
+    ├── README.md
+    ├── data
+    │   ├── processed
+    │   └── results
+    ├── models
+    │   ├── ct_team_value.joblib
+    │   ├── t_team_value.joblib
+    │   ├── ct_nxt_rnd_type.joblib
+    │   ├── t_nxt_rnd_type.joblib
+    │   └── nxt_ct_winner.joblib
+    └── notebooks
+        ├── archive
+        ├── 0_join_data.ipynb
+        ├── 1_direct_estimation.ipynb
+        ├── 2_1_ml_preprocessingdata.ipynb
+        ├── 2_1_optimization.ipynb
+        ├── 2_2_ml_regressor_original_data.ipynb
+        ├── 2_3_ml_regressor_modified_data.ipynb
+        ├── 2_4_ml_regressor_lgbm_tuning.ipynb
+        ├── 3_1_preprocessing_ml_reg_nxt_rnd_val.ipynb
+        ├── 3_2_ml_regressor_next_round_value.ipynb
+        ├── 4_1_prepr_ml_clas_nxt_rnd_val.ipynb
+        ├── 4_2_algorithm_election_gridsearch_ml_clas_nxt_rnd_val.ipynb
+        ├── 4_3_ml_clas_nxt_rnd_val.ipynb
+        ├── 5_1_prepr_ml_clas_winner_team.ipynb
+        ├── 5_2_algorithm_election_ml_clas_winner_team.ipynb
+        └── 6_output.ipynb
+```
 
 
  ----
