@@ -15,7 +15,7 @@ The objective of the project is to **predict relevant information** on the fly o
 
 Counter-Strike: Global Offensive forms part of the eSports, a growing market that is living his golden years with followers all over the world and moving big amounts of money. Only in tournament prizes, [CS:GO has passed $100M](https://esportsobserver.com/csgo-passes-100m-totalprize-money/)  from his beginning.
 
-![Image](https://esports.as.com/2018/07/04/cs-go/ESL-organizar-Major-Counter-Strike_1150994903_93102_1440x600.jpg)
+![Image](https://raw.githubusercontent.com/Laserdan/Predicting_CSGO_FTW/master/assets/csgo_cup.jpg)
 
 ## :floppy_disk: Data Source
 
@@ -47,6 +47,7 @@ Obtain the following features through processing ([2_1_ml_preprocessingdata.ipyn
 - real team value
 - round type
 
+![Image](https://raw.githubusercontent.com/Laserdan/Predicting_CSGO_FTW/master/assets/acquisition_table.png)
 
 Production -> read data from game
 
