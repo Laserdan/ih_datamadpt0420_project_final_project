@@ -48,7 +48,7 @@ Where:
 - <code>t_nxt_rnd_type_pred</code>: **Prediction** of the type of round of the t side for the next round.
 - <code>nxt_ct_winner_pred</code>: **Prediction** of the winner side for the next round: 1 if ct side, 0 if t side.
 
-There are more parameters also relevant that are not included to the output to get it more condensed and clear. You can see them in the [6_Output.ipynb notebook](https://github.com/Laserdan/Predicting_CSGO_FTW/blob/master/notebooks/6_Output.ipynb).
+There are more parameters also relevant that are not included to the output to get it more condensed and clear. You can see them in the [6_output.ipynb notebook](https://github.com/Laserdan/Predicting_CSGO_FTW/blob/master/notebooks/6_output.ipynb).
 
 This will be the output when the code will be implemented in-game.
 
@@ -59,10 +59,10 @@ For the stage we are, we have reached to make the predictions of the data we hav
 
 ## :rocket: Next Steps
 
-#### Sort term
+#### :running: Sort term
 The next step is to create a pipeline that returns the predictions when a round is passed manually.
 
-#### Medium term
+#### :walking: Medium term
 Get the round information directly from the game and pass it to the pipeline to get the prediction in real-time.
 
 ## :computer: Requirements 
