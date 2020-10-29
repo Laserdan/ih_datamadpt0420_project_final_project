@@ -26,6 +26,30 @@ An important fact is that matches are not from the in-game matchmaking system. T
 [Here](https://www.kaggle.com/danielmazzone/csgo-data-analysis-and-machine-learning) you can find an exploratory analysis of the data made by Daniel Mazzone
 
 
+## Workflow
+
+### Obtain the prediction models
+From the kaggle datasets:
+- <code>esea_master_dmg_clean_demos.csv</code>
+- <code>esea_master_grenades_clean_demos.csv</code>
+- <code>esea_meta_demos.csv</code>
+- <code>esea_master_kills_demos.csv</code>
+
+Obtain the following features through processing ([2_1_ml_preprocessingdata.ipynb](https://github.com/Laserdan/Predicting_CSGO_FTW/blob/master/notebooks/2_1_ml_preprocessingdata.ipynb)):
+- file
+- round
+- weapons value (value from records and fill the missing data with the mean)
+- grenades value (value from records)
+- players alive previous round
+- winner team
+- bomb planted previous round
+- consecutive wins
+- real team value
+- round type
+
+
+Production -> read data from game
+
 ## :printer: Output
 
 
