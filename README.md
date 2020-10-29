@@ -65,7 +65,7 @@ The next step is to create a pipeline that returns the predictions when a round 
 #### Medium term
 Get the round information directly from the game and pass it to the pipeline to get the prediction in real-time.
 
-## :laptop: Requirements 
+## :computer: Requirements 
 
 | Technology | Version | Documentation | 
 | --- | --- | --- |
@@ -112,7 +112,18 @@ Get the round information directly from the game and pass it to the pipeline to 
 ```
 
 
+
+### :love_letter: Contact info
+Getting help, getting involved, hire me please.
+
  ----
+ ----
+ ------------
+ ----
+ ----
+ 
+ 
+ 
 The README file describes the essence of the project playing the most important role. Most visitors will simply scroll down about twice on the README and leave if they are not interested. So, the README file should provide the reason **why** to checkout your project!!!). 
 Bearing that in mind, your job is to: 
 - Tell them what it is (with context).
@@ -120,7 +131,7 @@ Bearing that in mind, your job is to:
 - Show them how they use it.
 - Tell them any other relevant details.
 
-![Image](https://res.cloudinary.com/springboard-images/image/upload/q_auto,f_auto,fl_lossy/wordpress/2019/05/aiexcerpt.png)
+
 
 ---
 
@@ -193,29 +204,3 @@ Credits, alternatives, references, license.
 
 ### :love_letter: **Contact info**
 Getting help, getting involved, hire me please.
-
----
-
-> Here you have some repo examples:
-- [Onegy](https://github.com/borjauria/Final-Project)
-- [E-VITALOS](https://github.com/marinapm90/E-vitalos)
-- [Movie Founder](https://github.com/Alfagu/final-project-Ironhack-0419mad)
-- [MMELT](https://github.com/Juanjopf19/Ironhack-final-project--MMELT) 
-
-- [ART-ificial intelligence](https://github.com/Juliaroch/Ironhack-final-project-Julia-Roch)
-- [Next-Frida](https://github.com/Pacoanes/Next-Frida)
-- [Art Classification](https://github.com/serguma/art_classification)
-- [Convolutional Neural Network to detect Pneumonia](https://github.com/jmolins89/final-project)
-- [Brain tumor detection project](https://github.com/alonsopdani/brain-tumor-detection-project)
-
-- [Math handwritting recognition](https://github.com/yaakx/Math_handwritting_recognition)
-- [Mamba (OCR-Translator-Assistant)](https://github.com/YonatanRA/OCR-translator-assistant-project)
-
-- [Yummest](https://github.com/almsasantos/Yummest_Food_App)
-- [HackDecó](https://github.com/herreradelduque/Ironhack-Final-Project---HackDeco)
-
-> Here you have some tools and references:
-- [Make a README](https://www.makeareadme.com/)
-- [Awesome README](https://github.com/matiassingers/awesome-readme)
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
