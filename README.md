@@ -48,13 +48,15 @@ Obtain the following features through processing ([2_1_ml_preprocessingdata.ipyn
 - round type
 
 ![Image](https://raw.githubusercontent.com/Laserdan/Predicting_CSGO_FTW/master/assets/acquisition_table.png)
-#### 1st Regressor models to obtain <code>ct_val_pred</code> and <code>t_val_pred</code> ([2_4_ml_regressor_lgbm_tuning.ipynb](https://github.com/Laserdan/Predicting_CSGO_FTW/blob/master/notebooks/2_4_ml_regressor_lgbm_tuning.ipynb))
-#### 2nd Multiclass classifier models to obtain <code>ct_nxt_rnd_type_pred</code> and <code>t_nxt_rnd_type_pred</code> ([4_3_ml_clas_nxt_rnd_val.ipynb](https://github.com/Laserdan/Predicting_CSGO_FTW/blob/master/notebooks/4_3_ml_clas_nxt_rnd_val.ipynb))
-#### 3rd Classifier model to obtain <code>nxt_ct_winner_pred</code> ([5_2_algorithm_election_ml_clas_winner_team.ipynb](https://github.com/Laserdan/Predicting_CSGO_FTW/blob/master/notebooks/5_2_algorithm_election_ml_clas_winner_team.ipynb))
 
+1. **Regressor models to obtain <code>ct_val_pred</code> and <code>t_val_pred</code> ([2_4_ml_regressor_lgbm_tuning.ipynb](https://github.com/Laserdan/Predicting_CSGO_FTW/blob/master/notebooks/2_4_ml_regressor_lgbm_tuning.ipynb))**
 
+2. **Multiclass classifier models to obtain <code>ct_nxt_rnd_type_pred</code> and <code>t_nxt_rnd_type_pred</code> ([4_3_ml_clas_nxt_rnd_val.ipynb](https://github.com/Laserdan/Predicting_CSGO_FTW/blob/master/notebooks/4_3_ml_clas_nxt_rnd_val.ipynb))**
 
-Production -> read data from game
+3. **Classifier model to obtain <code>nxt_ct_winner_pred</code> ([5_2_algorithm_election_ml_clas_winner_team.ipynb](https://github.com/Laserdan/Predicting_CSGO_FTW/blob/master/notebooks/5_2_algorithm_election_ml_clas_winner_team.ipynb))**
+
+### Pipeline
+Pipeline with the models loaded which digest the data from the rounds and return de predictions on the fly.
 
 ## :printer: Output
 
