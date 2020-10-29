@@ -110,5 +110,3 @@ venv.bak/
 # Heavy Database
 data/csgo/
 
-# Images for README.md
-.images/

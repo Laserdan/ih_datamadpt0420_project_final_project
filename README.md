@@ -11,7 +11,7 @@ The objective of the project is to predict relevant information on the fly of ra
 
 Counter-Strike: Global Offensive forms part of the eSports, a growing market that is living his golden years with followers all over the world and moving big amounts of money. Only in tournament prizes, [CS:GO has passed $100M](https://esportsobserver.com/csgo-passes-100m-totalprize-money/)  from his beginning.
 
-![Image](.images/major_cup)
+![Image](https://esports.as.com/2018/07/04/cs-go/ESL-organizar-Major-Counter-Strike_1150994903_93102_1440x600.jpg)
 
 The README file describes the essence of the project playing the most important role. Most visitors will simply scroll down about twice on the README and leave if they are not interested. So, the README file should provide the reason **why** to checkout your project!!!). 
 Bearing that in mind, your job is to: 
