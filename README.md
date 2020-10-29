@@ -26,6 +26,26 @@ An important fact is that matches are not from the in-game matchmaking system. T
 [Here](https://www.kaggle.com/danielmazzone/csgo-data-analysis-and-machine-learning) you can find an exploratory analysis of the data made by Daniel Mazzone
 
 
+## Output
+
+
+|round|ct_val_pred|t_val_pred|ct_round_type|t_round_type|ct_nxt_rnd_type_pred|t_nxt_rnd_type_pred|nxt_ct_winner_pred|
+|----|----|----|----|----|----|----|----|
+|	1|  4078.134589|	3943.272665 |	PISTOL_ROUND|	PISTOL_ROUND |	MEDIUM |	ECO |	0|
+|	2|	17819.702711|	6290.616771 |	MEDIUM|	        ECO |	        MEDIUM|     FULL|   0|
+|	3| 	7038.468589| 	19600.790638| 	MEDIUM| 	    FULL| 	        ECO| 	    MEDIUM| 1|
+| 	4| 	1452.468928| 	22568.098741| 	ECO| 	        MEDIUM|         FULL| 	    FULL| 	0|
+| 	5| 	22676.205763| 	24459.855175| 	FULL| 	        FULL| 	        ECO| 	    FULL| 	0|
+Where:
+- <code>round</code>: Number of the round analyzed.
+- <code>ct_val_pred</code>: **Prediction** of the value of all the equipment the ct side is carrying.
+- <code>t_val_pred</code>: **Prediction** of the value of all the equipment the t side is carrying.
+- <code>ct_round_type</code>: Type of round of the ct side.
+- <code>t_round_type</code>: Type of round of the t side.
+- <code>ct_nxt_rnd_type_pred</code>: **Prediction** of the type of round of the ct side for the next round.
+- <code>t_nxt_rnd_type_pred</code>: **Prediction** of the type of round of the t side for the next round.
+- <code>nxt_ct_winner_pred</code>: **Prediction** of the winner side for the next round: 1 if ct side, 0 if t side.
+
 
 
 
