@@ -36,6 +36,8 @@ An important fact is that matches are not from the in-game matchmaking system. T
 |	3| 	7038.468589| 	19600.790638| 	MEDIUM| 	    FULL| 	        ECO| 	    MEDIUM| 1|
 | 	4| 	1452.468928| 	22568.098741| 	ECO| 	        MEDIUM|         FULL| 	    FULL| 	0|
 | 	5| 	22676.205763| 	24459.855175| 	FULL| 	        FULL| 	        ECO| 	    FULL| 	0|
+| ...| 	...| 	        ...| 	        ...| 	        ...| 	        ...| 	    ...| 	...|
+
 Where:
 - <code>round</code>: Number of the round analyzed.
 - <code>ct_val_pred</code>: **Prediction** of the value of all the equipment the ct side is carrying.
@@ -46,7 +48,34 @@ Where:
 - <code>t_nxt_rnd_type_pred</code>: **Prediction** of the type of round of the t side for the next round.
 - <code>nxt_ct_winner_pred</code>: **Prediction** of the winner side for the next round: 1 if ct side, 0 if t side.
 
+There are more parameters also relevant that are not included to the output to get it more condensed and clear. You can see them in the [6_Output.ipynb notebook](https://github.com/Laserdan/Predicting_CSGO_FTW/blob/master/notebooks/6_Output.ipynb).
 
+This will be the output when the code will be implemented in-game.
+
+For the stage we are, we have reached to make the predictions of the data we have with 3 different models:
+- Value of the team: 2 regression models.
+- Next round type: 2 multiclass classification models. 
+- Winner for the next round: 1 classification model.
+
+## Next Steps
+
+#### Sort term
+The next step is to create a pipeline that returns the predictions when a round is passed manually.
+
+#### Medium term
+Get the round information directly from the game and pass it to the pipeline to get the prediction in real-time.
+
+## Requirements 
+
+| Technology | Version | Documentation | 
+| --- | --- | --- |
+| Python | 3.7.3 | [www.python.org](https://www.python.org/doc/) |
+| Pandas | 1.1.3 | [pandas.pydata.org](https://pandas.pydata.org/docs/reference/index.html) |
+| Pandas-profiling | 2.9.0 | [GitHub repo](https://github.com/pandas-profiling/pandas-profiling) |
+| Scikit-Learn | 0.23.1 | [scikit-learn.org](https://scikit-learn.org/stable/user_guide.html) |
+| Numpy | 1.19.1 | [numpy.org](https://numpy.org/doc/stable/reference/index.html) |
+| LightGBM | 2.3.0 | [lightgbm.readthedocs.io](https://lightgbm.readthedocs.io/en/latest/index.html) |
+| Joblib | 0.15.1 | [joblib.readthedocs.io](https://joblib.readthedocs.io/en/latest/) |
 
 
 
